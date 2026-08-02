@@ -1,0 +1,13 @@
+generated: '2026-07-21'
+method: searched
+source: https://status.upciti.com/
+status_page: https://status.upciti.com/
+status_page_notes: Public status page ("Upciti status") with real-time and
+  historical uptime. Monitored production services include "API de gestion
+  des evenements" (event management API), reported at 100% uptime with
+  per-day operational history and a maintenance/previous-incidents log.
+versioning: null
+deprecation: null
+sla: null
+notes: No public versioning, deprecation, or SLA policy was found; product
+  documentation at docs.upciti.com is gated behind customer login.

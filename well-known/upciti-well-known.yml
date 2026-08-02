@@ -1,0 +1,46 @@
+generated: '2026-07-21'
+method: searched
+source: live probes of upciti.com, app.upciti.com, docs.upciti.com
+hosts:
+- host: https://upciti.com
+  documents:
+  - path: /.well-known/security.txt
+    status: 404
+  - path: /security.txt
+    status: 404
+  - path: /.well-known/openid-configuration
+    status: 404
+  - path: /.well-known/oauth-authorization-server
+    status: 404
+  - path: /.well-known/api-catalog
+    status: 404
+  - path: /.well-known/ai-plugin.json
+    status: 404
+  - path: /llms.txt
+    status: 404
+  - path: /robots.txt
+    status: 404
+- host: https://app.upciti.com
+  note: Upciti OS platform host; all paths 307-redirect to the platform login
+    (https://app.upciti.com/login/). An OAuth2/OIDC authorization endpoint
+    (/oauth2/authorize, response_type=code, scope=openid) backs the GitBook
+    visitor-auth on docs.upciti.com.
+  documents:
+  - path: /.well-known/openid-configuration
+    status: 307
+  - path: /.well-known/oauth-authorization-server
+    status: 307
+  - path: /.well-known/security.txt
+    status: 307
+  - path: /.well-known/jwks.json
+    status: 307
+- host: https://docs.upciti.com
+  note: GitBook-hosted documentation gated by visitor authentication; all paths
+    307-redirect into the app.upciti.com OAuth2 login flow.
+  documents:
+  - path: /.well-known/security.txt
+    status: 307
+  - path: /llms.txt
+    status: 307
+  - path: /openapi.json
+    status: 307

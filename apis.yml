@@ -1,8 +1,25 @@
 aid: upciti
 name: Upciti
-description: Upciti is a company surfaced as a portfolio company of point-nine and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: Upciti is a French smart-city company that equips cities with intelligent
+  computer-vision sensors and the Upciti OS platform, turning streets into clear,
+  anonymous data for informed municipal decisions across parking, mobility, energy,
+  water, gas, lighting, temperature, weather, air quality, pollen, illegal dumping,
+  and noise. Sensors process video 100% locally with no image storage (GDPR-native,
+  DTPR-supporting), and the platform advertises an open API for connecting GIS, BI,
+  and business tools with no proprietary lock-in. Product documentation is customer-gated.
 url: https://raw.githubusercontent.com/api-evangelist/upciti/refs/heads/main/apis.yml
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://upciti.com/apple-touch-icon.png
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
@@ -11,9 +28,18 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- Smart Cities
+- IoT
+- Sensors
+- Urban Data
+- Computer Vision
+- Environmental Monitoring
+- Parking
+- Mobility
+- Air Quality
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,3 +49,32 @@ maintainers:
 common:
 - type: Website
   url: https://upciti.com/en
+- type: PrivacyPolicy
+  url: https://upciti.com/en/privacy-policy
+- type: GitHubOrganization
+  url: https://github.com/upciti
+- type: Login
+  url: https://app.upciti.com/login/
+- type: StatusPage
+  url: https://status.upciti.com/
+- type: Lifecycle
+  url: lifecycle/upciti-lifecycle.yml
+- type: Packages
+  url: packages/upciti-packages.yml
+- type: WellKnown
+  url: well-known/upciti-well-known.yml
+- type: LLMsTxt
+  url: llms/upciti-llms.txt
+- type: Conformance
+  url: conformance/upciti-conformance.yml
+- type: Compliance
+  url: https://upciti.com/en/privacy-policy
+- type: DomainSecurity
+  url: security/upciti-domain-security.yml
+- type: LinkedIn
+  url: https://www.linkedin.com/company/upciti/
+x-enrichment:
+  date: '2026-07-21'
+  status: enriched
+  artifacts_added: 6
+  pass: local-v1

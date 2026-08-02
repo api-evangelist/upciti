@@ -1,0 +1,38 @@
+# Upciti
+
+> Upciti equips cities with intelligent computer-vision sensors and the Upciti OS platform, turning streets into clear, anonymous, GDPR-native data (parking, mobility, energy, water, gas, lighting, temperature, weather, air quality, pollen, illegal dumping, noise) for informed municipal decisions. An open API connects Upciti OS to GIS, BI, and business tools.
+
+Upciti is a French smart-city company backed by Point Nine. Sensors process video 100% locally at the edge, store no images, and emit anonymous counts and events. The platform advertises "Open API to connect your existing tools. No proprietary lock-in." Product documentation is customer-gated.
+
+## Platform
+
+- [Upciti website](https://upciti.com/en): Company site, Upciti OS platform and use cases
+- [Sensor](https://upciti.com/en/sensor): Sensor hardware, privacy-by-design and open API integration overview
+- [Upciti OS login](https://app.upciti.com/login/): Customer platform (OAuth2/OIDC)
+- [Documentation](https://docs.upciti.com/): Product docs (GitBook, customer login required)
+- [Status page](https://status.upciti.com/): Real-time and historical service status, including the event management API
+
+## Use cases
+
+- [Parking](https://upciti.com/en/use-cases/parking)
+- [Mobility](https://upciti.com/en/use-cases/mobility)
+- [Air quality](https://upciti.com/en/use-cases/air-quality)
+- [Ambient noise](https://upciti.com/en/use-cases/ambient-noise)
+- [Illegal dumping](https://upciti.com/en/use-cases/illegal-dumping)
+- [Lighting](https://upciti.com/en/use-cases/lighting)
+- [Electricity](https://upciti.com/en/use-cases/electricity)
+- [Water](https://upciti.com/en/use-cases/water)
+- [Gas](https://upciti.com/en/use-cases/gas)
+- [Temperature](https://upciti.com/en/use-cases/temperature)
+- [Weather](https://upciti.com/en/use-cases/weather)
+- [Pollen](https://upciti.com/en/use-cases/pollen)
+
+## Open source
+
+- [GitHub organization](https://github.com/upciti): 17 public repos (wakemeops, ops2deb, wheel2deb)
+- [ops2deb on PyPI](https://pypi.org/project/ops2deb/): Debian packaging for devops tools
+- [wheel2deb on PyPI](https://pypi.org/project/wheel2deb/): Python wheel to Debian converter
+
+## Policies
+
+- [Privacy policy](https://upciti.com/en/privacy-policy): GDPR data-protection policy (July 2023)

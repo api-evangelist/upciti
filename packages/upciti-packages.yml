@@ -1,0 +1,36 @@
+generated: '2026-07-21'
+method: searched
+source: https://github.com/upciti + pypi.org + registry.npmjs.org
+note: First-party open-source packages published by Upciti's engineering team.
+  These are devops/packaging tools, not client SDKs for the Upciti OS API
+  (no public API client libraries were found on npm, PyPI, Maven Central,
+  NuGet, pkg.go.dev, RubyGems, Packagist, or crates.io).
+packages:
+- language: python
+  registry: pypi
+  name: ops2deb
+  url: https://pypi.org/project/ops2deb/
+  install: pip install ops2deb
+  repository: https://github.com/upciti/ops2deb
+  version: 2.7.0
+  description: Generate Debian packages for common devops tools (kubectl, kustomize, helm, ...)
+  official: true
+  api_sdk: false
+- language: python
+  registry: pypi
+  name: wheel2deb
+  url: https://pypi.org/project/wheel2deb/
+  install: pip install wheel2deb
+  repository: https://github.com/upciti/wheel2deb
+  version: 0.9.5
+  description: Python wheel to Debian package converter
+  official: true
+  api_sdk: false
+- language: shell
+  registry: github
+  name: wakemeops
+  url: https://github.com/upciti/wakemeops
+  repository: https://github.com/upciti/wakemeops
+  description: A Debian repository for portable applications (205 stars)
+  official: true
+  api_sdk: false

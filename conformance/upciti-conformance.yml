@@ -1,0 +1,30 @@
+generated: '2026-07-21'
+method: searched
+source: https://upciti.com/en/sensor + https://upciti.com/en/privacy-policy + live probe of docs.upciti.com auth flow
+standards:
+- id: gdpr
+  conforms: true
+  evidence: Site states "GDPR compliant" (footer) and "GDPR Native" on the
+    sensor page - anonymous counts only, no image storage, 100% local (edge)
+    processing; dedicated privacy policy (last updated July 2023) documents
+    data-subject rights, with CNIL referenced as supervisory authority.
+- id: dtpr
+  conforms: true
+  evidence: Sensor page states "Supports DTPR initiatives" (Digital Trust
+    for Places & Routines transparency standard for sensors in public space).
+- id: oauth2
+  conforms: true
+  evidence: Platform login at app.upciti.com fronts an OAuth2 authorization
+    code flow (/oauth2/authorize, response_type=code) observed backing the
+    docs.upciti.com GitBook visitor authentication.
+- id: oidc
+  conforms: true
+  evidence: The observed authorization request uses scope=openid, indicating
+    OpenID Connect on the Upciti OS platform login.
+- id: ce-marking
+  conforms: true
+  evidence: Footer states "CE certified - IP67" for the sensor hardware
+    (hardware conformity, noted for completeness).
+- id: rfc9457-problem-details
+  conforms: null
+  evidence: Cannot be assessed - no public OpenAPI or error reference (docs gated).
