@@ -8,6 +8,17 @@ description: Upciti is a French smart-city company that equips cities with intel
   DTPR-supporting), and the platform advertises an open API for connecting GIS, BI,
   and business tools with no proprietary lock-in. Product documentation is customer-gated.
 url: https://raw.githubusercontent.com/api-evangelist/upciti/refs/heads/main/apis.yml
+deliveryModel:
+  model: saas
+  open_source: false
+  commercial: true
+  callable_host: false
+  label: Hosted service · you call their endpoint
+  confidence: medium
+  source:
+  - pricing
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: unknown
   onboarding: unknown
